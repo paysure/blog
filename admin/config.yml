@@ -1,8 +1,6 @@
 backend:
   name: github
   repo: paysure/blog
-  auth_type: pkce
-  app_id: e4d39dae06429e55c65839aabd197ca225e78e177b5a099d98db85ee3a03cea6
   branch: main
 media_folder: "assets/images"
 collections:

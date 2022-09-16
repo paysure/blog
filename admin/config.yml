@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: paysure/blog
+  auth_type: pkce
+  app_id: e4d39dae06429e55c65839aabd197ca225e78e177b5a099d98db85ee3a03cea6
+  branch: main
+media_folder: "assets/images"
+collections:
+  - name: "Posts"
+    label: "post"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Cover", name: "image", widget: "image" }
+      - { label: "Publish date", name: "date", widget: "datetime" }
+      - { label: "Content", name: "content", widget: "markdown" }
+      

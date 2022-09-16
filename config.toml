@@ -1,0 +1,16 @@
+baseURL = 'https://paysure.gitlab.io/frontend/blog/'
+languageCode = 'en-us'
+title = 'Paysure blog'
+themesDir = "themes"
+theme = "hugo-winston-theme"
+
+
+[params]
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = true
+  showPostsOnHomepage = true
+
+  addFrame = false
+  addDot = true
+
+  highlightColor = '#7b16ff'
